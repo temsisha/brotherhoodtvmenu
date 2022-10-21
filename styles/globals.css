@@ -1,0 +1,116 @@
+
+
+body {
+  /* background-color: black; */
+  background-image: url('/imgs/tvmenuBG.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  zoom:90%;
+}
+
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+
+.tvmenu {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.left-side {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.article-group, .brand-details {
+  display: flex;
+}
+
+.article-group {
+  padding: 7px;
+  padding-left: 0px;
+  padding-right: 0px;
+  align-items: center;
+  justify-items: center;
+  border-bottom: 2px solid #768A5A;
+  justify-content: space-between;
+}
+
+.logo {
+  padding-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.logo img {
+  border-radius: 50%;
+  width: 80px;
+  height:80px;
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.brand-name {
+  font-family: strenuous-cast, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+}
+
+.brand-details {
+  color: #AE915F;
+  font-family: teko, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 30px;
+}
+
+.brand-price {
+  display: flex;
+  flex-direction: column;
+  font-family: teko, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  font-size: 30px;
+  margin-top: 5px;
+}
+
+.separator {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  color: #AE915F;
+}
+
+.type-detailed {
+  color:white;
+}
+
+.brand-visability {
+  display: flex;
+  align-items: center;
+}
+
+  .notify-badge {
+      background: red;
+      height: 2rem;
+      width: 4rem;
+      text-align: center;
+      line-height: 33px;
+      font-size: 1.2rem;
+      border-radius: 10px;
+      color: white;
+      margin-left: 10px;
+      font-family: roboto;
+      font-weight: bold;
+}
