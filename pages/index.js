@@ -45,6 +45,7 @@ export async function getStaticProps({preview = false}) {
   return {
     props: {
       beers,
+      revalidate: 60,
     }
   }
 }
