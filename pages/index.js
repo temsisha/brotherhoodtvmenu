@@ -2,7 +2,6 @@ import { getClient } from "../lib/sanity.server"
 import groq from "groq"
 import Head from 'next/head'
 import Beer from '../components/beer';
-import { GetServerSideProps } from "next";
 
 
 const Home = ({beers}) => {
@@ -27,7 +26,7 @@ const Home = ({beers}) => {
   )
 }
 
-export async function getServerSideProps({preview = false}) {
+export async function getStaticProps({preview = false}) {
   const beers = await getClient(preview).fetch(groq`
     *[_type == "beer"]{
     _id,
