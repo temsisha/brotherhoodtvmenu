@@ -2,6 +2,7 @@ import { getClient } from "../lib/sanity.server"
 import groq from "groq"
 import Head from 'next/head'
 import Beer from '../components/beer';
+import { GetServerSideProps } from "next";
 
 
 const Home = ({beers}) => {
