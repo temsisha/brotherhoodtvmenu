@@ -26,7 +26,7 @@ const Home = ({beers}) => {
   )
 }
 
-export async function getStaticProps({preview = false}) {
+export async function getServerSideProps({preview = false}) {
   const beers = await getClient(preview).fetch(groq`
     *[_type == "beer"]{
     _id,
