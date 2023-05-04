@@ -38,6 +38,7 @@ export async function getStaticProps({preview = false}) {
     beerHighPrice,
     breweryLogo,
     newBeer,
+    soldBeer,
     publishedAt
     }
     
