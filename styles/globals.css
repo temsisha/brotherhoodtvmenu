@@ -77,6 +77,10 @@ body {
   font-size: 30px;
 }
 
+.price-tap-small, brand-price-big {
+  color:#ae915f;
+}
+
 .brand-price {
   display: flex;
   flex-direction: column;
