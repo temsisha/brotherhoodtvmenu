@@ -200,11 +200,11 @@ body {
   }
       .notify-badge-sold {
     background: rgb(255, 166, 0);
-    height: 0;
-    width: 0;
+      height: 2rem;
+      width: 7rem;
       text-align: center;
       line-height: 34px;
-      font-size: 10px;
+      font-size: 1.2rem;
       border-radius: 10px;
       color: black;
       margin-left: 10px;
