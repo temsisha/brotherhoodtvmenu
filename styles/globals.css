@@ -198,8 +198,7 @@ body {
       overflow: auto;
       zoom: 110%;
   }
-  }
-  .notify-badge-sold {
+      .notify-badge-sold {
     background: rgb(255, 166, 0);
     height: 0;
     width: 0;
@@ -212,3 +211,5 @@ body {
       font-family: roboto;
       font-weight: bold;
   }
+  }
+  
