@@ -198,18 +198,18 @@ body {
       overflow: auto;
       zoom: 110%;
   }
-      .notify-badge-sold {
-    background: rgb(255, 166, 0);
-      height: 2rem;
-      width: 7rem;
-      text-align: center;
-      line-height: 34px;
-      font-size: 1.2rem;
-      border-radius: 10px;
-      color: black;
-      margin-left: 10px;
-      font-family: roboto;
-      font-weight: bold;
-  }
+   .notify-badge-sold {
+    background: #ffa600;
+    height: 1.1rem;
+    width: 4rem;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+    border-radius: 10px;
+    color: #000;
+    margin-left: 10px;
+    font-family: roboto;
+    font-weight: 900;
+}
   }
   
